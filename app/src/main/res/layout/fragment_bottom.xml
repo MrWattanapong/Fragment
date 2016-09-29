@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="egco428.com.fragement.BottomFragment"
+    android:background="@drawable/cat">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/topMessage"
+        android:text="Top"
+        android:gravity="center_horizontal"
+        android:textSize="40dp"
+        android:textColor="#0400fe" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/bottomMessage"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Bottom"
+        android:textSize="40dp"
+        android:textColor="#fe0101"
+        android:gravity="center_horizontal" />
+
+</RelativeLayout>
